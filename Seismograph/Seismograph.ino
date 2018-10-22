@@ -15,7 +15,7 @@
 // are welcome! For source code and bug reports see:
 // http://github.com/[TODO github path to Hacking STEM]
 //
-// Copyright Microsoft EDU Workshop - HackingSTEM
+// Copyright 2017 Adi Azulay Microsoft EDU Workshop - HackingSTEM
 // MIT License terms detailed in LICENSE.txt 
 //===----------------------------------------------------------------------===//
 
