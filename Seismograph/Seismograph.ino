@@ -4,11 +4,6 @@
 // at http://aka.ms/hackingSTEM
 //
 // Overview:
-//
-//   This projects uses an Arduino UNO microcontroller board. More 
-//   information can be found by visiting the Arduino website: 
-//   https://www.arduino.cc/en/main/arduinoBoardUno
-//
 //   The Seismograph reading is read from analog pin A0 and the results 
 //   are sent out the serial port. Data can be visualized in Microsoft 
 //   Excel using the Project Cordoba add-in.
@@ -39,18 +34,18 @@ void loop()
 {
   sensorReading = analogRead(A0) * 5 ; // 5 volt is our reference voltage
 
+  // Send two values out per "shake"
   sensorReading = sensorReading;
   sendSerialData(); // Print out the sensor reading.
-// TODO why don't we pause between sends?
 
-  sensorReading = -sensorReading;  // TODO why are we sending negative?
-  sendSerialData();     // Print out the sensor reading.
+  sensorReading = -sensorReading;  // Synthetic negative (looks good in excel)
+  sendSerialData(); // Print out the sensor reading.
   delay(dataSpeed);
 }
 
 void sendSerialData()
 {
-  Serial.print(sensorReading); // TODO why no commas
+  Serial.print(sensorReading); 
   Serial.println();
 }
 
