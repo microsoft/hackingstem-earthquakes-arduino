@@ -1,5 +1,5 @@
 # Introduction
-Microcontroller code for Microsoft Hacking STEM Seimograph and Tuned Mass Damper for the Earthquakes Lesson Plan adapted for Arduino
+Microcontroller code for Microsoft Hacking Using Computational Thinking to Understand Earthquakes lesson plan adapted for Arduino
 
 # Getting Started
 1. Download lesson assets at http://aka.ms/hackingSTEM
