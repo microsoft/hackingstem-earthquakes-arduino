@@ -6,7 +6,7 @@
    be found by visiting the Arduino website: https://www.arduino.cc/en/main/arduinoBoardUno
 
    The Seismograph reading is read from analog pin A0 and the results are sent out the serial port.
-   Data can be visualized in Microsoft Excel using the Project Cordoba add-in.
+   Data can be visualized in Microsoft Excel using the Microsoft Data Streamer AddIn for Excel.
 
    2017 Microsoft EDU Workshop
 
@@ -21,7 +21,6 @@ void setup()
   // Enable serial communications.
   Serial.begin(9600);
   pinMode (A0, INPUT);
-  //analogReference(INTERNAL);
 }
 
 void loop()
@@ -30,7 +29,6 @@ void loop()
 
   sensorReading = sensorReading;
   sendSerialData(); // Print out the sensor reading.
-  //delay(75);
 
   sensorReading = -sensorReading;
   sendSerialData();     // Print out the sensor reading.
@@ -42,6 +40,3 @@ void sendSerialData()
   Serial.print(sensorReading);
   Serial.println();
 }
-
-
-
