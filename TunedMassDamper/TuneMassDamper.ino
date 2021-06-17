@@ -5,6 +5,9 @@ More details on LIS3DH: https://www.adafruit.com/product/2809
 
 This code captures accelerometer data over i2c, but not relying on any external libraries, and sends it over serial.
 
+Comments, contributions, suggestions, bug reports, and feature
+requests are welcome! For source code and bug reports see:
+https://github.com/microsoft/hackingstem-earthquakes-arduino
 
 Adi Azulay, 2017 Microsoft EDU Workshop
 */

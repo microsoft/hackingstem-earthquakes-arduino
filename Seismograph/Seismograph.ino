@@ -9,6 +9,10 @@
    The Seismograph reading is read from analog pin A0 and the results are sent out the serial port.
    Data can be visualized in Microsoft Excel using the Microsoft Data Streamer AddIn for Excel.
 
+   Comments, contributions, suggestions, bug reports, and feature
+   requests are welcome! For source code and bug reports see:
+   https://github.com/microsoft/hackingstem-earthquakes-arduino
+
    David Myka, 2017 Microsoft EDU Workshop
    http://aka.ms/hackingSTEM
 */
