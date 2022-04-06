@@ -1,6 +1,6 @@
 /*
 Tuned Mass Dampner (TMD) code using Arduino UNO and Adafruit LIS3DH breakout board
-More detials on TMD: https://www.microsoft.com/en-us/education/education-workshop/seismograph.aspx
+More detials on TMD: https://education.microsoft.com/hackingStem/lesson/088ef496
 More details on LIS3DH: https://www.adafruit.com/product/2809
 
 This code captures accelerometer data over i2c, but not relying on any external libraries, and sends it over serial.

@@ -1,8 +1,8 @@
 /*
    Seisomograph code for use with the Tuned Mass Damper lesson plan
-   Available from the Microsoft Education Workshop at 
-   https://www.microsoft.com/en-us/education/education-workshop/seismograph.aspx
-   
+   Available from the Microsoft Education Workshop at
+   https://education.microsoft.com/hackingStem/lesson/088ef496
+
    This projects uses an Arduino UNO microcontroller board. More information can
    be found by visiting the Arduino website: https://www.arduino.cc/en/main/arduinoBoardUno
 
